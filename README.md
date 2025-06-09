@@ -1,4 +1,4 @@
-# MERN DevOps Project
+#  DevOps Project
 
 This project is designed to facilitate the deployment of a MERN (MongoDB, Express, React, Node.js) application by integrating key DevOps tools and best practices. It leverages Docker for containerization, Kubernetes for orchestration, Jenkins for CI/CD automation, Helm for package management, ArgoCD for GitOps-based deployment, Kustomize for environment-specific configurations, and Prometheus/Grafana for monitoring and observability.
 
@@ -6,7 +6,7 @@ This project is designed to facilitate the deployment of a MERN (MongoDB, Expres
 
 ## Overview
 
-The MERN DevOps project includes:
+The DevOps project includes:
 
 - **Dockerization**: Building and running containers for the frontend, backend, and MongoDB using Docker and Docker Compose.
 
@@ -26,7 +26,7 @@ The MERN DevOps project includes:
 
 ## Project Deployment Flow
 
-![workflow-gif](./docs/assets/workflow.gif)
+
 
 ---
 
