@@ -16,6 +16,18 @@ Create a Docker network to allow seamless communication between containers:
 docker network create docker-network
 ```
 
+## Configuring the docker registry 
+
+```
+ sudo vi /etc/containers/registries.conf
+```
+Copy and Paste the blow to get the docker images form docker.io
+
+```
+[registries.search]
+registries = ['docker.io']
+```
+
 ## Building and Running Containers Individually
 
 ### 1. Running the MongoDB Container
